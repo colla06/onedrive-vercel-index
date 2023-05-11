@@ -52,7 +52,7 @@ module.exports = {
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'GitHub',
+      name: 'AySDO',
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
     },
   ],
