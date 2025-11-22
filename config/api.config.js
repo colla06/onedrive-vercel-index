@@ -1,6 +1,6 @@
 module.exports = {
-  clientId: 'c91885c5-a194-40f7-ac67-14524e73a35d', // Id. de aplicación (cliente)
-  obfuscatedClientSecret: 'aquí_va_el_valor_real_del_secret', // el valor que generaste en Azure, no el ID
+  clientId: 'c91885c5-a194-40f7-ac67-14524e73a35d', // tu app de Azure
+  obfuscatedClientSecret: 'xBb8Q~qoZ67rrW2fla0aPGW.2Fxba-IIbm-.5aCp', // el valor real del secret
   redirectUri: 'http://localhost',
   authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
   driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
