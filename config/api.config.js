@@ -1,23 +1,23 @@
 /**
- * Configuración de la API para tu OneDrive-vercel-index
+ * Configuración de la API para OneDrive-Vercel-Index
  */
 module.exports = {
-  // Tu Application (client) ID
+  // ID de la app registrada en Azure
   clientId: 'c91885c5-a194-40f7-ac67-14524e73a35d',
 
-  // Valor del client secret que generaste en Azure (NO el ID)
-  obfuscatedClientSecret: 'nRH8Q~KXCBSGD1IiTZBYzS1P0Y2dej9hsBCOrds4',
+  // Valor del client secret generado en Azure (no el ID)
+  obfuscatedClientSecret: '35T8Q~j3Isv.ulDtMl.9K2Dcw3UQGjJYiLJaWcjr',
 
-  // Redirect URI configurado en Azure
+  // URI de redirección registrada en Azure
   redirectUri: 'http://localhost',
 
-  // URLs de autenticación y del Drive API
+  // Endpoints de autenticación y API de OneDrive
   authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
   driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
 
-  // Permisos requeridos
+  // Alcance necesario
   scope: 'user.read files.read.all offline_access',
 
-  // Cache-Control para Vercel
+  // Cache control
   cacheControlHeader: 'max-age=0, s-maxage=60, stale-while-revalidate',
 }
