@@ -9,8 +9,9 @@
  */
 module.exports = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth.
-  clientId: 'c91885c5-a194-40f7-ac67-14524e73a35d', // Nuevo Client ID
-  obfuscatedClientSecret: 'xBb8Q~qoZ67rrW2fla0aPGW.2Fxba-IIbm-.5aCp', // Nuevo Client Secret
+clientId: 'c91885c5-a194-40f7-ac67-14524e73a35d',
+clientSecret: 'xBb8Q~qoZ67rrW2fla0aPGW.2Fxba-IIbm-.5aCp', // valor plano generado en Azure
+
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   redirectUri: 'http://localhost',
