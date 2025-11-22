@@ -1,6 +1,5 @@
 /**
- * Multi-account configuration for OVI
- * Define las rutas y las cuentas de OneDrive
+ * Configuración multi-cuenta para OVI
  */
 module.exports = {
   roots: [
